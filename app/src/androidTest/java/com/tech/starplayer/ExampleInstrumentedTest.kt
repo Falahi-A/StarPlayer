@@ -1,6 +1,6 @@
 package com.tech.starplayer
 
-import androidx.test.platform.app.InstrumentationRegistry
+import androidx.test.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
 import org.junit.Test
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.worldsnas.starplayer", appContext.packageName)
+        assertEquals("com.tech.starplayer", appContext.packageName)
     }
 }

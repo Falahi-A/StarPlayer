@@ -21,6 +21,6 @@
         tools:layout="@layout/fragment_player" >
         <argument
             android:name="music"
-            app:argType="com.worldsnas.starplayer.model.Music" />
+            app:argType="com.tech.starplayer.model.Music" />
     </fragment>
 </navigation>
