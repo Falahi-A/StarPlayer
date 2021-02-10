@@ -1,1 +1,1 @@
-Star Player
+StarPlayer
